@@ -1,0 +1,70 @@
+{
+  // Coc appearance
+  "languageserver": {
+    "sorbet": {
+      "command": "bundle",
+      "args": [
+        "exec",
+        "srb",
+        "tc",
+        "--lsp",
+        "--enable-all-experimental-lsp-features"
+      ],
+      // "command": "srb",
+      // "args": ["tc", "--lsp", "--enable-all-experimental-lsp-features"],
+      "filetypes": ["ruby"],
+      "rootPatterns": ["sorbet/config"],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  },
+  // @see https://github.com/neoclide/coc-solargraph/issues/3#issuecomment-485142497
+  "solargraph.autoformat": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  // @see https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "php",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "ruby",
+    "typescript",
+    "typescriptreact",
+    "xml"
+  ],
+  // ESLint
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+  // TypeScript
+  "tsserver.enable": true,
+  "tsserver.formatOnType": true,
+  // Prettier
+  "prettier.tabWidth": 2,
+  "prettier.enable": true,
+  "prettier.useTabs": false,
+  // Intelephense
+  "intelephense.licenceKey": "00UWZI2TTHOKWO5",
+  // TailwindCSS
+  "tailwindCSS.headwind.runOnSave": false,
+  "tailwindCSS.cssLanguages": [
+    "css",
+    "less",
+    "postcss",
+    "sass",
+    "scss",
+    "stylus",
+    "vue"
+  ],
+  "tailwindCSS.jsLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}

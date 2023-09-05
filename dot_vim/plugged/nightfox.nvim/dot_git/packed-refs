@@ -1,0 +1,20 @@
+# pack-refs with: peeled fully-peeled sorted 
+31a088af7469fa39383cedc9afe1e2ec0bd4fded refs/remotes/origin/compile-user-permission-message
+3f8d9f24e11f6dc49520b81d3eba2f5d22e82ac2 refs/remotes/origin/feat/config-func
+96469ed7d4465690a4c8af56ba06f624ccac5632 refs/remotes/origin/feat/register
+a48f6d9a0273101df76eb25d2f5477baa277f935 refs/remotes/origin/main
+be04d09949d41466be33b086760e0c4af8da50f8 refs/remotes/origin/release-please--branches--main--components--nightfox.nvim
+680b0c01b5a3edc539ed603dd8d4c7f8b3b9212e refs/remotes/origin/style/frostfox
+8bff155eaafd18ce96e1a27a6b3f24ac98606f09 refs/tags/nvim/0.7.x
+^15f3b5837a8d07f45cbe16753fbf13630bc167a3
+03bd7b8a1cc0d94801f05057c62aa79ad39e5972 refs/tags/v1.0.0
+^d83145614e8082b24a001643f1c6c00c0ea9aaef
+0903c4886535d97e6e62f710ab97119d2e09aa0b refs/tags/v2.0.0
+c0dff938207a1a01dc9cb494fc4519d4dabb5ee7 refs/tags/v2.1.0
+a637479382f6a592a202ccfbff1bb27d604afce8 refs/tags/v3.0.0
+2ea11caa3e6191d3c3949c388db156c2b68f6f69 refs/tags/v3.1.0
+4d410ea0da0af5d0e3277bc6dba4e152c26a39ee refs/tags/v3.2.0
+be5e53df21c8f41790d25c56cd16cda90137dc63 refs/tags/v3.3.0
+f741f322ba269dc4d4c38e95b3784d38071d3abd refs/tags/v3.4.0
+74d84c823f5d2fd9e263f022b401ba82790624f2 refs/tags/v3.5.0
+68db77db88bf997f060cf591f81813ccba97c5e6 refs/tags/v3.5.1
