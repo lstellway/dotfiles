@@ -1,6 +1,12 @@
 # Consider adding `set`
 # @see https://www.linkedin.com/advice/3/what-some-advantages-disadvantages-using-set-e
 
+# Word style (for backward deletion)
+# @see https://stackoverflow.com/questions/444951/zsh-stop-backward-kill-word-on-directory-delimiter
+# @see http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#Widgets
+autoload -U select-word-style
+select-word-style bash
+
 # Enable git autocompletion
 # @see https://stackoverflow.com/a/58517668
 autoload -Uz compinit && compinit
