@@ -1,1 +1,16 @@
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+FILES=(
+  ~/.profile.d/aliases.sh
+  ~/.profile.d/aws.sh
+  ~/.profile.d/fzf.bash
+  ~/.profile.d/history.sh
+  ~/.profile.d/homebrew.sh
+  ~/.profile.d/nix.sh
+  ~/.profile.d/nvm.sh
+  ~/.profile.d/ssh.sh
+  ~/.profile.d/timer.sh
+)
+
+for FILE in $FILES; do
+  [ -f $FILE ] && source $FILE
+done
+
