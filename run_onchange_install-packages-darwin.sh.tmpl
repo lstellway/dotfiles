@@ -1,0 +1,31 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+# @see https://github.com/Homebrew/homebrew-bundle#usage
+brew bundle --no-lock --file=/dev/stdin <<EOF
+tap "lstellway/formulae"
+
+# set arguments for all 'brew install --cask' commands
+cask_args appdir: "~/Applications", require_sha: true
+
+brew "awscli"
+brew "docker"
+brew "fd"
+brew "fzf"
+brew "git"
+brew "go"
+brew "grep"
+brew "node"
+# @see https://podman.io/docs/installation#macos
+brew "podman"
+brew "podman-compose"
+brew "ripgrep"
+brew "vim"
+brew "yt-dlp"
+
+cask "podman-desktop"
+cask "tailscale"
+cask "visual-studio-code"
+EOF
+{{ end -}}
+
