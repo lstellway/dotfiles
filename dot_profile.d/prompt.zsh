@@ -23,7 +23,7 @@ zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
 # Check for changes
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr ' ∆'
-zstyle ':vcs_info:*' stagedstr ' …'
+zstyle ':vcs_info:*' stagedstr ' ≜'
 
 precmd() {
     vcs_info
