@@ -3,13 +3,16 @@
 
 # @see https://github.com/Homebrew/homebrew-bundle#usage
 brew bundle --no-lock --file=/dev/stdin <<EOF
+tap "oven-sh/bun"
 tap "lstellway/formulae"
 
 # set arguments for all 'brew install --cask' commands
 cask_args appdir: "~/Applications", require_sha: true
 
 brew "awscli"
+brew "bun"
 brew "docker"
+brew "docker-compose"
 brew "fd"
 brew "fzf"
 brew "git"
@@ -24,7 +27,11 @@ brew "ripgrep"
 brew "vim"
 brew "yt-dlp"
 
+cask "anytype"
+cask "fantastical"
 cask "focusrite-control"
+cask "keepassxc"
+cask "notion"
 cask "plexamp"
 cask "podman-desktop"
 cask "readwise-ibooks", args: { require_sha: false }
