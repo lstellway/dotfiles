@@ -1,0 +1,11 @@
+[user]
+	signingkey = {{ .chezmoi.config.data.git.signingKey }}
+	name = {{ .chezmoi.config.data.git.name }}
+	email = {{ .chezmoi.config.data.git.email }}
+[gpg]
+	format = ssh
+[gpg "ssh"]
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = develop
