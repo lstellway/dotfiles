@@ -8,6 +8,7 @@ FILES=(
   ~/.profile.d/homebrew.sh
   ~/.profile.d/nix.sh
   ~/.profile.d/nvm.sh
+  ~/.profile.d/ruby.sh
   ~/.profile.d/ssh.sh
   ~/.profile.d/timer.sh
 )
