@@ -1,4 +1,5 @@
 # @see https://www.reddit.com/r/linuxquestions/comments/1185ww2/comment/j9kbo9d/?utm_source=share&utm_medium=web2x&context=3
 **/plugged/
 **/plugged/**/*
+!plugged/dot_gitkeep
 

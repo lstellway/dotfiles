@@ -3,4 +3,5 @@ dot_DS_Store
 .netrwhist
 dot_netrwhist
 sessions
-plugged
+dot_vim/plugged
+!dot_vim/plugged/dot_gitkeep
