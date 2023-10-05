@@ -1,8 +1,0 @@
-b8bf528af61cf1c036d971480b5feced21be662b		branch 'release' of https://github.com/neoclide/coc.nvim
-39b10c25befcb29014ca125ec923a964db630186	not-for-merge	branch 'deps' of https://github.com/neoclide/coc.nvim
-6105c57299e23bb27a8fc4046bd350458a28fd78	not-for-merge	branch 'dev' of https://github.com/neoclide/coc.nvim
-e22c870ace9381fdeaea8261095ca587b283d9e1	not-for-merge	branch 'feat/do-not-resolve-root-for-readonly-file' of https://github.com/neoclide/coc.nvim
-f077eeae50f610958bb910e50b3473650bf9907c	not-for-merge	branch 'feat/extensions-recommend' of https://github.com/neoclide/coc.nvim
-0cb6074cc88f2b4a7e9ae6dc4110ad0f638a0809	not-for-merge	branch 'feat/semantic-tokens-hi' of https://github.com/neoclide/coc.nvim
-8427bdda7aac08d73f7d301263e356d6e3c8a6f2	not-for-merge	branch 'lua' of https://github.com/neoclide/coc.nvim
-ae4ecfa5d26a6bacf2be7e43b6bcebadd084f295	not-for-merge	branch 'master' of https://github.com/neoclide/coc.nvim

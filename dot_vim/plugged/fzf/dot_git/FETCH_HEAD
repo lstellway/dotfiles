@@ -1,8 +1,0 @@
-0f50dc848e58b47408713c2c31f2be73287c030a		branch 'master' of https://github.com/junegunn/fzf
-9488acf715e4811fe3753750cfcaf34b07b8b426	not-for-merge	branch 'dependabot/github_actions/actions/checkout-4' of https://github.com/junegunn/fzf
-d2eee278e7b599f6cacc887c8f88c16f01c33c14	not-for-merge	branch 'dependabot/github_actions/crate-ci/typos-1.16.10' of https://github.com/junegunn/fzf
-3887e4fec81903af77ec94ba8dd1ba2efab90170	not-for-merge	branch 'dependabot/go_modules/github.com/gdamore/tcell/v2-2.6.0' of https://github.com/junegunn/fzf
-fba1f2c87027115b41168784fc2e65a536ff7227	not-for-merge	branch 'dependabot/go_modules/github.com/mattn/go-isatty-0.0.19' of https://github.com/junegunn/fzf
-fad6e18096877f6a629cc796d64a92918a91cd01	not-for-merge	branch 'dependabot/go_modules/github.com/mattn/go-runewidth-0.0.15' of https://github.com/junegunn/fzf
-a80531ff27789fa121f0c64727e73512b105b40a	not-for-merge	branch 'dependabot/go_modules/golang.org/x/sys-0.12.0' of https://github.com/junegunn/fzf
-7aecfb4331677d049a27c42fdd5c0ae76703c1ec	not-for-merge	branch 'dependabot/go_modules/golang.org/x/term-0.12.0' of https://github.com/junegunn/fzf
