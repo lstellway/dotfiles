@@ -10,6 +10,7 @@ FILES=(
   ~/.profile.d/nvm.sh
   ~/.profile.d/ruby.sh
   ~/.profile.d/ssh.sh
+  ~/.profile.d/terminal.sh
   ~/.profile.d/timer.sh
 )
 
