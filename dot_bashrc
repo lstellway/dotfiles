@@ -1,6 +1,7 @@
 FILES=(
   ~/.profile.d/aliases.sh
   ~/.profile.d/aws.sh
+  ~/.profile.d/docker.sh
   ~/.profile.d/fzf.bash
   ~/.profile.d/history.sh
   ~/.profile.d/homebrew.sh
