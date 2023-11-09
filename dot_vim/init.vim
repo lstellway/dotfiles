@@ -20,12 +20,10 @@ endif
 
 " Plugins
 call plug#begin()
-  Plug 'EdenEast/nightfox.nvim'
   Plug 'andymass/vim-matchup'
+  Plug 'christoomey/vim-tmux-navigator'
   Plug 'junegunn/fzf'
   Plug 'junegunn/fzf.vim'
-  Plug 'tpope/vim-fugitive'
-  Plug 'tpope/vim-commentary'
   Plug 'ledger/vim-ledger'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   let g:coc_global_extensions = [
@@ -44,6 +42,8 @@ call plug#begin()
     \ 'coc-solargraph',
     \ 'coc-tailwindcss'
     \ ]
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-commentary'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'vimwiki/vimwiki'
