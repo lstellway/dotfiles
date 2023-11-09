@@ -26,11 +26,23 @@ zstyle ':vcs_info:*' unstagedstr ' ∆'
 zstyle ':vcs_info:*' stagedstr ' ≜'
 
 precmd() {
-    vcs_info
+  vcs_info
+}
+
+_title_leader() {
+  case "$TERM" in
+    screen*|tmux*)
+      # print "%F{2}○%f"
+      print "📦"
+      ;;
+    *)
+      print "$"
+      ;;
+  esac
 }
 
 setopt prompt_subst
-PROMPT='%F{4}%~%f${vcs_info_msg_0_} $ '
+PROMPT='%F{4}%~%f${vcs_info_msg_0_} $(_title_leader) '
 RPROMPT='%F{2}%n%f %F{4}%W %*%f'
 
 # Colors
